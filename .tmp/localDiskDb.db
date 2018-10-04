@@ -1,0 +1,47 @@
+{
+  "data": {
+    "task": [
+      {
+        "description": "okt",
+        "isComplete": false,
+        "createdAt": "2018-10-01T23:10:57.597Z",
+        "updatedAt": "2018-10-01T23:10:57.597Z",
+        "id": 2
+      },
+      {
+        "description": "hello",
+        "isComplete": false,
+        "createdAt": "2018-10-01T23:12:34.834Z",
+        "updatedAt": "2018-10-01T23:12:34.834Z",
+        "id": 3
+      }
+    ]
+  },
+  "schema": {
+    "task": {
+      "description": {
+        "type": "string"
+      },
+      "isComplete": {
+        "type": "boolean"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "task": {
+      "id": 3
+    }
+  }
+}
